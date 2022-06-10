@@ -1,5 +1,6 @@
 # Portafolio
 Mi portafolio, para hacerlo ocupe las siguientes etiquetas
+
              h1 y h3
 h1 lo ocupe para el titulo ya que es la etiqueta mas grande entre h1 y h6,h3 para los subtitulos ya que el tamaño de la letra es intermedia.
 
