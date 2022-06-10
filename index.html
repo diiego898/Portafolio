@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <title>Portafolio</title>
     <style>
-        #table table, th, td,tr{
-          border: 2px solid black;
-          width: 200px;
-          height: 25px;
+        #table table,
+        th,
+        td,
+        tr {
+            border: 2px solid black;
+            width: 200px;
+            height: 25px;
         }
-    
     </style>
 </head>
 
@@ -19,7 +21,7 @@
     <h1>Diego Quinteros</h1>
 
     <div id="usuario">
-        <img src="usuario.png" alt="imagen 1">
+        <img src="Yo.jpg" alt="imagen 1" width="300" height="300">
     </div>
 
     <div id="links">
@@ -73,20 +75,26 @@
 
     <div id="Contacto">
         <h3>Contact Me</h3>
-        <label>Nombre: </label>
-        <input type="text" name="first_name">
+        <form>
+            <label>Name: </label>
+            <input type="text" name="first_name">
 
-        <label>Email: </label>
-        <input type="email" name="email">
+            <label>Email: </label>
+            <input type="email" name="email">
+        </form>
     </div>
     <br>
     <div>
-        <label>Message:</label>
-        <textarea name="comment" cols="20" rows="3"></textarea>
+        <form>
+            <label>Message:</label>
+            <textarea name="comment" cols="20" rows="3"></textarea>
+        </form>
     </div>
     <br>
     <div>
-        <input type="submit" value="Sand Message">
+        <form>
+            <input type="submit" value="Sand Message">
+        </form>
     </div>
 
 </body>
